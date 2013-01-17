@@ -2,6 +2,7 @@
 Drivers and Stuff for our (RS232 Controlled) LED Matrix
 
 ### Perl code (not working) - Stephan Oeste (emzy.de)
+Reverse engineering of original protocol (windows software). 
 First attempt to replace the default software
 ### Python code - Stefan Triller (stefantriller.de)
 Still working code to replace the default software. It's possible to send multi colored text to the LED panel
