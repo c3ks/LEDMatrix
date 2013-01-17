@@ -1,0 +1,1287 @@
+Programming Manual
+
+- Page 2-
+
+MANAGEMENT SOFTWARE
+
+1.1. Copy the Management Software from floppy disk (A:\) to hard disk
+(C:\). Double click
+
+it and run this program, you will see a dialog box as (Picture 1):
+
+Kopieren Sie die management software von der diskette auf eine cd-rom.
+Nach dem doppelklicken und dem betdtigen des programms, werden sie eine
+dialog box sehen (bild 1)
+
+Set parameters of LED display:
+
+Stellen sie die Parameter (=gew'nschte Einstellungen) des LED Displays
+ein:
+
+Color *
+
+Single color: it is a single color Display, it can present only red and
+black color.
+
+Eine einzige Farbe: die Darstellung wird nur aus einer einzigen Farbe
+bestehen, nur rot und schwarz. 
+
+* Double colors: it is a double color Display, it can present red,
+green, yellow, and
+
+black.
+
+Mehrere Farben: die Darstellung  besteht aus mehreren Farben: rot, gr'n,
+gelb und schwarz. 
+
+*Scale colors: it is a 256 scale colors Display. But it is still not
+available.
+
+Farbskala: Die Darstellung besteht aus  allen 256 Farben, es ist aber
+noch nicht erhdltlich.
+
+Communication mode
+
+RS-232: using serial port to communicate with Display.
+
+Um mit dem Display zu kommunizieren, benutzen sie den seriellen `Port'
+
+RS-422: using ISA communication card to communicate with Display,
+however, it is
+
+still not available at this moment.
+
+Zur Kommunikation mit dem Display wird eine ISA Kommunikationskarte
+verwendet, die im Moment noch nicht erhdltlich ist. 
+
+Width the number of pixels in an row
+
+Breite: die Anzahl der Pixel in einer Zeile
+
+Height the number of pixels in a column
+
+Htzhe: die Anzahl der Pixel in einer spalte.
+
+Note that: For single color Display, it should not be more than 64
+pixels. While for
+
+double color Display, it should not be more than 32 pixels.
+
+Achten sie darauf, dass es  f'r single color nicht mehr als 64 pixel
+sein sollten, wdhrend es f'r double color nicht mehr als 32 Pixel sein
+sollten. 
+
+Number stored
+
+it shows the maximum number of screens that can be saved. Because the
+memory
+
+of Display is limited, this value depends on the width, height, and
+colors of the
+
+display.
+
+Zeigt die Htzchstzahl der  Darstellungen an, die gespeichert werden
+ktznnen. Da der Speicher des Displays begrenzt ist, hdngt dieser wert
+von der tiefe, weite und den Farben der Darstellung ab.
+
+? IMPORTANT NOTICE:
+
+Make sure that all the parameters are set up correctly. Otherwise, the
+display cannot
+
+work properly.
+
+Versichern sie sich, dass alle Einstelllungen korrekt eingestellt sind,
+sonst funktioniert die Darstellung nicht einwandfrei.  
+
+1.2. Menu
+
+After finishing setting up the parameters, click ``Set'', you will enter
+into the main
+
+menu of the program. (Picture 2).
+
+Nachdem Sie die Einstellungen beendet haben, klicken sie auf ``Set'', um
+ins Hauptmen' des Programms zu gelangen.
+
+2.1 File (F) ZH. It includes 7 submenus as below:
+
+(F) beinhaltet sieben Untermen's:
+
+(i) Open (O)
+
+Use to open a created file, as a file format *.SDV.
+
+Benutzen sie (O), um eine bereits erstellte Datei im Format SDV zu
+tzffnen. 
+
+(ii) Clear (C)
+
+Use to clear the contents in editing area.
+
+Benutzen sie (C), um die Inhalte im Auswahlgebiet zu ltzschen. 
+
+(iii) Save (S)
+
+(iv) Save as (A)
+
+speichern, wie (A)
+
+(v) Import
+
+Import a graphic file, as a file format *.bmp file.
+
+Importieren sie eine Graphik (=Bild-)Datei als eine Datei im *bmp
+format.
+
+(vi) Export
+
+Exportieren.
+
+(vii) Exit (E)
+
+Exit this program. 
+
+Verlassen des Programms.
+
+Page 4 - 
+
+2.2 Edit (E) ZH. It includes 6 sub-menus as below.
+
+(E) beinhaltet 6 Untermen's:
+
+(i) Undo (U)
+
+Recall the latest command. (It is still not available.)
+
+(U): r'ckgdngig: widerrufen sie den letzten befehl (noch nicht
+verf'gbar)
+
+(ii) Cut (T)
+
+Cut the selected content and copy it onto clipboard.
+
+Mit (T) schneiden sie ausgewdhlte Inhalte und kopieren in die
+Zwischenablage
+
+(iii) Copy (C)
+
+Copy the selected content onto clipboard.
+
+Mit C) kopieren sie ausgewdhlte Inhalte ins in die Zwischenablage. 
+
+(iv) Paste (P)
+
+Paste the content on clipboard into the editing area. Only two file
+formats can be
+
+identified by this program (*.txt and *.bmp).
+
+fixieren sie mit (P) den Inhalt der  Zwischenablage in den daf'r
+vorgesehenen Bereich.
+
+(v) Select all (A)
+
+Select all the contents in the editing area.
+
+Markieren sie alle Inhalte im Auswahlgebiet mit (A)
+
+(vi) Delete (Del)
+
+Delete the selected contents.
+
+Ltzschen der ausgewdhlten Inhalte. 
+
+2. 3 Send (S) ZH
+
+(i) Send file
+
+Send the contents in editing area to Display and this should be done
+after
+
+finishing all the set-up.
+
+Versenden sie die Inhalte im Auswahlgebiet in die Darstellung (sollte
+erst nach dem Abschluss alles set- ups getan werden)
+
+(ii) Set Moving Method
+
+Click ``Set Moving Method'', you will see the ``setting parameters''
+dialog box as
+
+(Picture 3), which gives user different options on display mode, speed,
+animation
+
+effects and styles of cartoon in each key frame of LED display.
+
+Klicken sie auf ''set moving method``, um die ''Einstellungen
+festlegen``- dialogbox (Bild 3) zu sehen, die verschiedene
+Mtzglichkeiten im Darstellungsmodus, der Geschwindigkeit, den
+Animationseffekten und den Kartoonstyles in jeder Schl'sseldatei des LED
+Displays bietet. 
+
+(Picture 3)
+
+- Page 5-
+
+a) Key
+
+It shows the total number of frames that will be displayed on screen.
+
+``Schl'ssel'': zeigt die Gesamtanzahl der frames auf, die auf dem
+Bildschirm gezeigt werden.
+
+b) Import mode
+
+It gives user different types of importing display modes, by which the
+contents
+
+appear in the key frame at start. Refer to (Picture 4), this mode
+includes:
+
+Import Modus: gewdhrt dem Benutzer verschiedene arten von display-
+Import Mtzglichkeiten, indem die Inhalte in der key frame am anfang
+erscheinen. Wie man im bild 4 sehen kann, beinhaltet dieser modus:
+
+(Picture 4)
+
+Move from left or right - von links oder von rechts bewegen
+
+Scroll up or bottom - nach oben oder nach unten scrollen
+
+Jump from right - von rechts hineinspringen
+
+Open from left, right, up, bottom, center or both sides - von links,
+rechts, oben, unten, mitte oder von beiden seiten tzffnen
+
+Cover from center or both sides - von der mitte oder von beiden Seiten
+aus verstecken (=verschwinden)
+
+Immedia
+
+Ready 
+
+Random ...
+
+c) Export mode
+
+Similarly, it can also give user different types of exporting display
+modes, by which
+
+the contents disappear in the key frame at last.
+
+GleichermaYAen kann man auch verschiedene arten von export display modes
+verwenden, durch welche die Inhalte in die key frame verschwinden. 
+
+(Picture 5)
+
+- Page 6-
+
+d) Speed
+
+It can control the moving speed of signal which displays on screen.
+Looking at
+
+(Picture 6), the level of speed can be from Slow ZH Median ZH Fast ZH
+Fastest.
+
+Geschwindigkeit: kontrolliert die Bewegungsgeschwindigkeit des signals,
+das auf dem Bildschirm dargestellt wird. Wie in bild 6 kann man das
+level von langsam 'ber mittel bis schnell und am schnellsten einstellen.
+
+(Picture 6)
+
+e) Append mode
+
+In ``Append mode'', see the dialog box as (Picture 7), this mode can
+provide
+
+different animation effects and styles of cartoon in each key frame of
+LED display:
+
+Dieser modus kann verschiedene animation effekte und cartoon stile in
+jeder key frame des LED displays zur verf'gung stellen:
+
+(Picture 7)
+
+Users can select one or more options of animation effects accordingly.
+
+Man kann eine oder mehrere zusammengehtzrige Animationseffekte
+auswdhlen.
+
+. Flicker the contents will flash three times continually after they
+appear in
+
+the Display.
+
+Flimmern: die Inhalte werden drei mal fortwdhrend flackern nachdem sie
+auf dem Display erscheinen.
+
+. Pause the contents will pause for certain seconds after they appear in
+
+the Display. User can choose the pause time by inputting a data into
+above
+
+dialogue.
+
+Pause: die Inhalte machen f'r einige Sekunden pause, nachdem sie auf dem
+Display erscheinen. Man kann die pause dazu nutzen, eine Datei in den
+obigen Dialog zu stecken.
+
+.
+
+Continuum the next key frame will appear immediately while the
+
+previous key frame disappears.
+
+Der ndchste key frame wird sofort nach dem verschwinden des vorherigen
+key frames erscheinen
+
+. Quiescence the contents will stop on the screen unless new contents
+are
+
+sent to it. It is suitable to display one page mode.
+
+Die Inhalte bleiben auf dem Bildschirm falls keine neuen Inhalte
+anstehen. Es ist dazu angemessen, einen ein-seiten- Modus darzustellen.
+
+- Page 7-
+
+Users can select one of the cartoon types accordingly.
+
+Eine der folgenden cartoon typen kann ausgewdhlt werden:
+
+. Cartoon type these include Eat bean, Toxophily, Weight lifting, Lion
+
+and Horse.
+
+f) SetCol
+
+Click ''SetCol'' in Picture 3, the dialog box (Picture 8) will then be
+seen. The ``Set
+
+col'' option is mainly used to set import mode, export mode, speed or
+append
+
+mode with respect to the specified screen.
+
+Klicken sie auf ``Set Col'' und die Dialog box erscheint. Diese Option
+wird hauptsdchlich dazu verwendet, import, export, geschwindigkeits oder
+anhang-  modi festzusetzen.
+
+(Picture 8)
+
+For example, if there is more than one screen that users want to set
+every
+
+screen's export mode as the same as screen 3 one (see Picture 9a), i.e.
+Move
+
+from right, user only need to choose appropriate setting option in
+Picture 8, then
+
+all the export mode in other screen will be as same as the specified one
+(see
+
+Picture 9b).
+
+Beispielsweise: wenn es mehr als einen Bildschirm gibt, den man
+einstellen mtzchte, so muss man alle Exportmodi so einstellen, wie
+beispielsweise den dritten Bildschirm, das heiYAt, wenn man von sich von
+rechts bewegen will, muss man nur die betreffende Option in bild 8
+auswdhlen, dann werden alle export modi auf  anderen Bildschirm genauso
+sein wie auf dem spezifischen(bild 9b)
+
+(Picture 9a)
+
+(Picture 9b)
+
+g) SetRow
+
+Click ''SetRow'' in Picture 3, the dialog box (Picture 10) will then be
+seen. The ``Set
+
+row'' option is mainly used to perform the same settings of import mode,
+export
+
+mode, speed and append mode with respect to the specified screen.
+
+Klicken sie ``Set row`` auf dem dritten bild, um die dialog box in bild
+10 aufzurufen; diese option wird hauptsdchlich dazu verwendet, dieselben
+Einstellungen des import-, geschwindigkeits-, anhang- und des export-
+modes auszuf'hren (unter Ber'cksichtigung des spezifischen Bildschirmes)
+
+(Picture 10)
+
+For example, if there is more than one screen that user want to set
+every
+
+screen's parameters as the same as screen 1 (see Picture 11a). User can
+only
+
+need to choose appropriate setting option in Picture 10, then all the
+parameters
+
+in other screen will be as same as the specified one (see Picture 11b).
+
+Z.B: wenn man auf mehreren Bildschirmen dieselben Parameter wie auf dem
+bildschirm1 festlegen will, muss man lediglich die zugehtzrige setting 
+Option (Bild 10) aufwdhlen, dann sind alle Parameter auf den andere
+Bildschirmen dieselben wie die des Spezifizierten (bild 11b).
+
+- Page 9-
+
+(Picture 11a)
+
+(Picture 11b)
+
+(iii) Adjust time
+
+When all the above parameters are set okay, click ``Adjust time'' in
+picture 2. Now you
+
+will see the following dialog box (See Picture 12)
+
+Sobald alle oben angegebenen Parameter richtig eingestellt wurden,
+klicken sie auf ``Adjust time'' (bild2). Nun erscheint die folgende
+Dialogbox (bild12):
+
+(Picture 12)
+
+* Communication Port (COM1/COM2) by which computer can
+
+communicates with Display. The default port is COM2. Users need to
+
+select the suitable port according to his practical need. If users
+select a
+
+port which are been using by mouse or other programs, the Manage
+
+Software will give a notice that ``the selected port have been used,
+please
+
+choose others''.
+
+Durch den Communication Port kann ein Computer mit dem Display
+kommunizieren. Der default port ist COM2. Es muss der passende Port
+ausgewdhlt werden, je nach dem praktischen Nutzen. Falls ein port
+ausgesucht wird, der durch Maus  oder durch andere Programme benutzt
+wird, wird die manage software sie daran erinnern, dass ''der
+ausgewdhlte port bereits benutzt wird, bitte wdhlen sie einen anderen``.
+
+
+* Address of Moving-Sign the number of the Display, and the files will
+
+be sent. The default Display number is ``0'', in such case; the sending
+files
+
+will be received by all the connected Displays. It is very useful when
+there
+
+are more than one Displays connected.
+
+Wenden sie sich an Moving-sign mit der Nummer des Bildschirms und
+daraufhin werden die Files versendet. Die default display Nummer ist
+''0``, und in diesem fall werden die zu versendenden Files von allen
+angeschlossenen Displays erhalten. Dies ist sehr hilfreich, falls mehr
+als ein Bildschirm angeschlossen ist. 
+
+Page 10-
+
+IMPORTANT NOTICE:
+
+If the files need to be sent more than one Display but not all the
+connected
+
+Displays, please input their Display numbers accordingly and separate
+them
+
+with a comma. For example, if the No.1, No.3, No.5, No. 10 Displays
+accept the
+
+files, then input ``1,3,5,10'' into the blank box. Please note below:
+
+Fall die Files an mehr als einen Bildschirm, aber nicht an alle
+angeschlossenen Bildschirme verschickt werden soll, so geben sie deren
+Bildschirm-nummer nacheinander ein und trennen diese mit einem Komma.
+Beispielsweise geben Sie ''1,3,5,10`` ein, falls die Nummer 1,3,5 und 10
+die Files annehmen sollen. Achten sie auch auf folgendes:
+
+the first and last character cannot be a comma.
+
+1. das erste und das letzte Zeichen darf kein Komma sein.
+
+two connected commas are invalid.
+
+2. zwei Kommas nacheinander sind ung'ltig. 
+
+the Display numbers can not exceed 255.
+
+3. die Anzahl der angegebenen Bildschirm-Nummern darf 255 nicht
+'berschreiten.
+
+Check whether the communication line connected with computer's COM port
+
+correctly or not. When these two parameters are ready to setup, click
+``OK''.
+
+Now, you will see the dialog box (See Picture 13)
+
+Pr'fen sie nach, ob die Verbindungsleitung zum COM port des Computers
+korrekt installiert ist. Wenn diese zwei Parameter dann bereit sind zum
+Setup, dann klicken sie ''OK``, woraufhin die Dialogbox (bild 13)
+erscheint. 
+
+(Picture 13)
+
+By which, users can have three options to adjust on time display. 
+
+Es gibt drei Optionen, um die Zeit einzustellen. 
+
+* Horizontal position of timer display (BYTE as units).
+
+Horizontale position des timer Displays (BYTE als einheit).
+
+* Vertical position of the timer display (BYTE as units).
+
+Vertikale Position des timer Display (BYTE als Einheit):
+
+* Display second.
+
+Darstellung des Zweiteren. 
+
+Note that: The standard time adjustment comes from the clock of
+computer.
+
+Notieren: Die standart- Zeiteinstellung wird durch die Uhr des Computers
+'bernommen. 
+
+(iv) Open Multi-language Moving-Sign
+
+By which, this moving sign adjustment allows user to input the
+corresponding
+
+language of character rather than his own country.
+
+TZffnen des Mehr-sprachen Moving-Sign:
+
+Die Moving-Sign Berichtigung ldsst es zu, die individuelle Sprache statt
+der Landessprache einzugeben. 
+
+(v) Close Multi-language Moving-Sign
+
+By which, this moving sign adjustment does not allow user to input the
+
+corresponding language of character rather than his own country.
+
+SchlieYAen des Mehr-sprachen Moving-Sign:
+
+Dadurch entfdllt die Mtzglichkeit, andere Sprachen als die Landessprache
+einzugeben. 
+
+(vi) Display Multi-language Moving-Sign's address
+
+By which, the display's number will be shown on the screen all the time,
+so that
+
+user can check this information conveniently.
+
+Zeigen der Adresse des Mehr-sprachen Moving-Sign
+
+Dadurch ist die Display-nummer immer auf dem Bildschirm sichtbar, so
+dass der Benutzer diese Info stdndig 'berpr'fen kann.
+
+- Page 11-
+
+(vii) Close Multi-language Moving-Sign's address
+
+If users don't want the Display's number to appear on the screen all the
+time,
+
+clicking this will then close it.
+
+SchlieYAen der Mehr-sprachen Moving-Sign Adresse:
+
+Falls der Benutzer die Display-Nummer nicht stdndig auf seinem
+Bildschirm erscheinen lassen mtzchte, so wird durch anklicken von dieser
+Option dies beendet. 
+
+(viii) Set Multi-language Moving-Sign's address
+
+This function is still not available at this moment
+
+Einstellen der Mehr-Sprachen Moving-Sign Adresse:
+
+Noch nicht verf'gbar. 
+
+(ix) Timer
+
+It is used to set up some functions of timer. Click it, you will see the
+following
+
+dialog box. (See Picture 14)
+
+Timer: 
+
+Wird benutzt, um einige Funktionen des Timers zu dndern. Klicken Sie es
+an, und die folgende Dialogbox erscheint (bild14):
+
+(Picture 14)
+
+. the number of timers set, total 8 timers.  - Die Anzahl der
+eingestellten Timers, im ganzen acht. 
+
+. If it is selected, the timer will be closed.  - Der Timer wird
+geschlossen, fall Sie dies anklicken.
+
+. If it is selected, the timer will be opened.  - Der Timer wird
+getzffnet, falls Sie dies anklicken. 
+
+. Set the starting date (from Mon~Sun). - Einstellen des Start- Datums
+(von Montag bis Sonntag)
+
+. . Set the starting time (including both hour & minute) - Einstellen
+der Start- Zeit (Stunden und Minuten)
+
+. If it is selected, the timer's time is the close time of the Display.
+- Die Zeit des Timers ist die Uhrzeit auf dem Display.
+
+.. Set the screen numbers of starting and ending. - Einstellung der
+Bildschirm-Nummern f'rs Starten und Enden. 
+
+2.4 View (V) ZH
+
+(i) Status bar (S)
+
+It can be hided or displayed.
+
+Kann gezeigt oder verborgen werden. 
+
+* The data in the 1 st box is the coordinate of mouse (X,Y) located at
+
+specified areas.
+
+Die Daten in der ersten Box sind die Koordinaten der  Maus (X;Y) an
+bestimmten Stellen befindlich.
+
+* The data in the 2 nd box is the drag size of mouse (CX,CY) located at
+
+specified areas.
+
+Die Daten in der zweiten Box ist die Drag GrtzYAe der Maus (CX,CY) an
+bestimmten Stellen befindlich.
+
+* The data in the 3 rd box is the screen number where the mouse locates.
+
+Die Daten in der dritten Box ist die Bildschirmnummer, auf der sich die
+Maus befindet. 
+
+	
+
+- Page 12-
+
+(ii) Grid (Ctrl + G)
+
+This function can be used only when the contents are magnified 6x or 8x
+times
+
+* When users want to make an exact orientation by using ``zoom'' tool,
+click
+
+``Grid'', you can find an each small grid which is a pixel in the normal
+state.
+
+* If you want to hide it, click ``Grid'' again, the grid will disappear
+from the
+
+screen.
+
+Diese Funktion kann nur benutzt werden, wenn die Inhalte um sechs oder
+acht mal vergrtzYAert sind. 
+
+Klicken Sie ''Grid``, falls sie eine exakte Orientierung durch
+''zoom``-Werkzeuge w'nschen, dann finden sie einen Grid, der in
+NormalgrtzYAe einen Pixel misst. 
+
+Fall Sie es verbergen wollen, dann klicken sie erneut auf ''Grid``.
+
+(iii) Separate Line (Ctrl + L)
+
+This function is to hide or display the division line of each screen, so
+that users can
+
+identify the contents within an editing area of each screen, so that it
+can avoid the
+
+crossover between each other.
+
+Trennlinie: Diese Funktion ermtzglicht es, die Trennlinie zwischen den
+einzelnen Bildschirmen zu verbergen oder anzuzeigen, so dann man die
+Inhalte innerhalb der Editing Area der einzelnen Bildschirme
+identifiziere kann, dadurch kann man 'berschneidungen zwischen ihnen
+verhindern.
+
+(iv) Palette tool (Ctrl + P)
+
+* It can be used to set the color of object. - Kann zur Farbeinstellung
+eines Objekts benutzt werden. 
+
+* For single color Display, there are only two colors: red and black. -
+F'r single color Display, die einzigen  Farben: Rot und Schwarz.
+
+* For dual colors Display, there are four colors: red, black, green,
+yellow. - F'r Dual color Display, vier Farben; Rot, Schwarz, Gr'n, Gelb.
+
+* The color selected by clicking the left key of mouse is for foreground
+color,
+
+while the color selected by clicking the right key of mouse is for
+
+background color. - Die mit der linken Maustaste gewdhlte Farbe fungiert
+als Vordergrund-, die mit der rechten Maustaste angeklickte als
+Hintergrundfarbe. 
+
+* If users want to change the colors of previous pictures, select the
+subjected
+
+pictures first, and then choose the foreground color and background
+color
+
+respectively.
+
+Um die Farben von vorangegangenen Bildern zu verdndern, wdhlen sie die
+betreffenden Bilder aus und wdhlen die entsprechenden Vorder- und
+Hintergrundfarben aus. 
+
+(v) Draw tool (Ctrl + D)
+
+* You can use ``Pen'' to draw a free line in the editing area as you
+like.
+
+Besides, you can use ``Line'' and ``Arc'' to draw a straight line and
+curve
+
+respectively.
+
+Benutzen Sie ''Pen``, um eine freie Linie in der Editing Area zu ziehen.
+Das Benutzen von ''Line`` und  von ''Arc`` erlaubt es, gerade Linien
+oder Kurven zu zeichnen.
+
+Current background color Current foreground color
+
+Geldufige Hinter- und Vordergrundfarben.
+
+- Page 13-
+
+* When you select or , you will see the line width table as follows
+
+diagram:
+
+Note that: If you want to change the thickness of the finished line or
+arc,
+
+select the required line or arc; follow by choosing the thickness of
+line just
+
+you want.
+
+Wdhlen sie or, um die Tabelle mit den Linienbreiten aufzurufen:
+
+Bedenken Sie, dass sie die betreffende Figur auswdhlen und dndern
+ktznnen, falls die Dnderung einer bereits Beendeten Figur ntztig sein
+sollte. 
+
+* If you want to edit some pixels exactly, you can click the ``Zoom''
+status
+
+toolbox, and then choose the multiple magnifying scales just you want.
+
+Fall sie einige Pixel exakt auswdhlen wollen, so klicken sie auf die
+``Zoom''-status Toolbox und wdhlen sie aus den verschiedenen
+VergrtzYAerungsskalen die gew'nschte aus.  
+
+* You can draw some of the following shapes in the editing area,
+including
+
+both:
+
+Sie ktznnen folgende Figuren in der Editing Area:
+
+. Rectangle - Rechteck
+
+. Round Rectangle - Ellypse
+
+. Oval - Oval
+
+. Polyline - Linie aus mehreren Strichen
+
+'', you can see the following dialog box:
+
+Um Text einzuf'gen, klicken sie `` ``, dann erscheint die folgende
+Dialog box:
+
+- Page 14-
+
+* You can insert text in different formats, including both:
+
+Man kann Texte in folgenden verschiedenen Formaten einf'gen:
+
+. Type of characters, i.e. text, symbol, number, etc - Schriftarten,
+d.h.:Text, Symbole, Nummern etc.
+
+. Size (value from 0~80) - GrtzYAe (Wert 0 bis 80)
+
+. Opaque / Transparent mode - Undurchsichtig, Durchsichtig
+
+. Style of characters, i.e. Bold, Italic, Underline - Schriftformen,
+d.h.: Fett, Kursiv, Unterstrichen.
+
+(vi) Align Tool (Ctrl + T)
+
+The functions of tools:
+
+Funktion der Werkzeuge:
+
+Align Left The selected object is aligned toward left. This button is
+valid
+
+only when two or above objects is selected. In such case, this will take
+the
+
+most left subject as a reference and all the others will be aligned
+toward left.
+
+Einr'cken Links: das ausgewdhlte Objekt wird nach links einger'ckt.
+Dieser Button funktioniert nur, falls zwei oder mehr Objekte ausgewdhlt
+sind. In diesem Fall wird das am weitesten links befindliche Objekt als
+Referenzwert genommen und alle anderen ebenso weit einger'ckt.
+
+Align Right The selected object is aligned toward right. This button is
+
+valid only when two or above objects is selected. In such case, this
+will take the
+
+most right subject as a reference and all the others will be aligned
+toward right.
+
+Einr'cken Rechts: Die ausgewdhlten Objekte werden nach Rechts ger'ckt.
+Dies funktioniert nur bei zwei oder mehreren ausgewdhlten Objekten
+(s.o.) und die Objekte werden so weit nach rechts ger'ckt wie das am
+weitesten rechts befindliche.
+
+Align Top The selected object is aligned toward top. This button is
+valid
+
+only when two or above objects is selected. In such case, this will take
+the
+
+most top subject as a reference and all the others will be aligned
+toward top.
+
+Nach oben R'cken: die Objekte werden in Richtung oben verschoben, dieser
+Button funktioniert nur, falls zwei oder mehr Objekte ausgewdhlt sind.
+In diesem Fall wird das am weitesten oben befindliche Objekt als
+Referenzwert genommen und alle anderen ebenso weit einger'ckt.
+
+Align Bottom The selected object is aligned toward bottom. This
+
+button is valid only when two or above objects is selected. In such
+case, this
+
+will take the most bottom subject as a reference and all the others will
+be aligned
+
+toward bottom.
+
+Nach unten r'cken: die Objekte werden in Richtung unten verschoben,
+dieser Button funktioniert nur, falls zwei oder mehr Objekte ausgewdhlt
+sind. In diesem Fall wird das am weitesten unten befindliche Objekt als
+Referenzwert genommen und alle anderen ebenso weit einger'ckt.
+
+Center Vertical The selected object in the vertical middle. If the
+
+height of selected object exceeds the screen, this button will be
+invalid.
+
+Das ausgewdhlte Objekt wird vertikal in die Mitte ger'ckt. Diese
+Funktion wird ung'ltig, sobald die ObjektgrtzYAe die BildschirmgrtzYAe
+'bersteigt. 
+
+Center Horizontal The selected object in the horizontal middle. If the
+
+width of selected object exceeds the screen, this button will be
+invalid.
+
+Das ausgewdhlte Objekt wird horizontal in die Mitte ger'ckt. Diese
+Funktion wird ung'ltig, sobald die ObjektgrtzYAe die BildschirmgrtzYAe
+'bersteigt.
+
+Space Across It makes the horizontal interval of selected objects in
+
+same space. That means the horizontal space between the first object and
+the
+
+second object is same as the space between the second object and third
+object.
+
+This button is valid only when three or more objects are selected.
+
+Ordnet die ausgewdhlten Objekte in gleichem Abstand ein, der horizontale
+Abstand zwischen dem ersten und dem zweiten Objekt wird dieselbe sein
+wie die zwischen dem zweiten und dem dritten. Es m'sse mehrere Objekte
+ausgewdhlt worden sein.
+
+Space Down It makes the vertical interval of selected objects in same
+
+space. That means the vertical space between the first object and the
+second
+
+object is same as the space between the second object and third object.
+This
+
+button is valid only when three or more objects are selected.
+
+Ordnet die ausgewdhlten Objekte in gleichem Abstand ein, der vertikale
+Abstand zwischen dem ersten und dem zweiten Objekt wird dieselbe sein
+wie die zwischen dem zweiten und dem dritten. Es m'ssen mehrere Objekte
+ausgewdhlt worden sein. 
+
+ Make Same Width It makes all the selected objects have a same
+
+width. The button is valid only when two or more objects are selected.
+The last
+
+selected object will be taken as a reference, all the others have the
+same width
+
+with it.
+
+Alle Objekte werden gleich breit gemacht, abhdngig von dem
+letztgewdhlten Objekt, das als Referenz f'r alle anderen gilt. 
+
+ Make Same Height It makes all the selected objects have a same
+
+height. The button is valid only when two or more objects are selected.
+The last
+
+selected object will be taken as a reference, all the others have the
+same height
+
+with it. 
+
+Alle Objekte werden gleich hoch gemacht, abhdngig von dem letztgewdhlten
+Objekt, das als Referenz f'r alle anderen gilt.
+
+Make Same Size It makes all the selected objects have a same height
+
+and width. The button is valid only when two or more objects are
+selected. The
+
+last selected object will be taken as a reference, all the others have
+the same
+
+height and width with it. 
+
+Alle Objekte werden in Htzhe und Breite gleich gemacht, abhdngig von dem
+letztgewdhlten Objekt, das als Referenz f'r alle anderen gilt.
+
+ Specify Position It make all the selected objects as its specified
+
+position and size, i.e. starting horizontal point, starting vertical
+point, width and
+
+height. You will see following dialog box:
+
+Setzt alle ausgewdhlten Objekte in den spezifizierten Angaben
+(horizontaler und vertikaler Startpunkt, Htzhe und Breite) gleich. 
+
+3. Operation on ``Right Click'' function of mouse
+
+Operationen im Bereich der Rechten Maustaste.
+
+3.1. Converting data into BMP Picture
+
+If users want to convert the content of one screen into BMP picture,
+they should
+
+follow the below procedure:
+
+Konvertieren von Dateien ins BMP Picture: 
+
+(i) Deselect any object by (Press ``ESC'' key) to cancel all the
+selections.
+
+SchlieYAen sie alle anderen ausgewdhlten Programme mit ``ESC''
+
+(ii) Click the right key of the mouse on specified keyframe from the
+editing area,
+
+you will see a dialog box `` Convert this to BMP'' and follow the step:
+
+Rechte Maustaste auf der gew'nschten keyframe der editing area klicken,
+woraufhin folgende Dialogbox erscheint: ``Convert this to BMP``
+
+(iii) Then there appears another dialog box inquiring about the
+filename. Input
+
+a file name as you want, all the objects in this screen will be changed
+into
+
+BMP file.
+
+Anklicken, woraufhin eine weitere Dialogbox erscheint, die nach  dem
+Filenamen fragt. Geben Sie den gew'nschten ein und alle Objekte der
+betreffenden Seite werden zu BMP Files. 
+
+3.2. Invert axis
+
+After users import a BMP file from the file submenu, or copy a BMP file
+from
+
+clipboard, select this object, and click the right key of the mouse at
+the same time,
+
+you will see following menu:
+
+Nachdem eine BMP Datei von file-untermen' importiert oder vom clipboard
+kopiert worden ist, wdhlen Sie dieses Objekt aus indem sie die rechte
+Maustaste betdtigen. Daraufhin erscheint:
+
+``invert X axis'': flip the image around X axis  - ``Umkehrung
+X-Achse``: dreht das Bild einmal um die X- Achse
+
+``invert Y axis'': flip the image around Y axis  - ``Umkehrung Y-
+Achse'': dreht das Bild einmal um die Y-Achse
+
+3.3. Change row spacing
+
+If you select a text object, and click the right key of mouse at the
+same time, you will
+
+see ``Change row spacing'' dialog box
+
+Follows the step, another new dialog box will exist as below:
+
+Dndern der Zeilenverteilung:
+
+Markieren sie ein Textobjekt, klicken Sie die rechte Maustaste und Sie
+sehen die folgende Box: 
+
+* Select the `` A line of characters can span on one screen'' box, the
+text can
+
+then be displayed in more than one screen, and users can move the text
+
+object into any screen. Deselect this box and then the text cannot be
+
+displayed in different screens.
+
+Wahl der ``Eine Zeile reicht 'ber den gesamten Bildschirm'': dann kann
+der Text in mehr als einem Bildschirm gezeigt werden, und man kann das
+Textobjekt in jeden beliebigen Bildschirm 'bernehmen. Deaktivieren Sie
+diese Funktion und der Text kann nicht mehr auf andere Bildschirme
+'bernommen werden. 
+
+Note that: This program will make an adjustment automatically according
+to its
+
+current position. When users move the text, some part of the texts may
+not be
+
+seen because of the adjustment from the program.
+
+Bedenken Sie: dieses Programm wird automatisch eine Korrektur vornehmen,
+abhdngig von dessen gegenwdrtiger Position. Wenn der Text bewegt wird,
+kann man einige Teile des Textes nicht sehen aufgrund der Autokorrektur
+des Programms. 
+
+* Select the ``Fix the row spacing'' box, you can input a value into it.
+The value
+
+is the space between two neighbor lines (unit: pixels). It is workable
+for the
+
+whole file.
+
+Wdhlen sie die ``Zeilenfixieren''box, um einen Wert einzugeben. Der Wert
+ist der Abstand zwischen zwei Benachbarten Linien (wert: Pixel). Es gilt
+f'r die ganze File. 
+
+* Deselect the ``Fix the row spacing'' box, you can input a value into
+``Row
+
+spacing of selecting'' box. The value is also the space between two
+
+neighbor lines, but it is only workable for the selected text.
+
+Deaktivieren Sie die obige Box, dann ktznnen sie einen Wert in die
+``Wdhlen der Reihenabstdnde''-box eingeben. Dieser Wert ist der Abstand
+zwischen zwei benachbarten Zeilen, gilt aber nur f'r den markierten
+text. 
+
+* Click the ``Set row spacing to default'' box, the program will use the
+default
+
+line-space on the whole file.
+
+Klicken Sie auf diese Box, um die urspr'ngliche Zeilenverteilung zu
+benutzen. 
+
+Other functions
+
+Andere Funktionen:
+
+Table of key function
+
+Tabelle der Schl'sselfunktionen
+
+Select any objects such as text, shape or line, and then press the
+following types of
+
+key that will operate each specified function:
+
+Wdhlen sie irgendein Objekt, zB Text, Figur oder Linie und benutzen Sie
+folgende Symbole f'r die spezifischen Funktionen:
+
+ Move object towards left with one pixel - Objekte einen Pixel nach
+links verschieben
+
+ Move object towards up with one pixel - Objekte einen Pixel nach oben
+verschieben
+
+ Move object towards right with one pixel - Objekte einen Pixel nach
+rechts verschieben
+
+ Move object towards down with one pixel - Objekte eine Pixel nach unten
+verschieben
+
+Modify object by moving its left sides of column towards right with
+
+one pixel, i.e. the width of object should be smaller
+
+->Verdndern Sie das Objekt, indem sie dessen linken Rand um einen Pixel
+nach rechts schieben - das Objekt wird schmaler 
+
+Modify object by moving its left sides of column towards left with
+
+one pixel, i.e. the width of object should be bigger
+
+->Verdndern Sie das Objekt, indem sie dessen linken Rand um einen Pixel
+nach links schieben - das Objekt wird breiter. 
+
+Modify object by moving its top of row towards up with one pixel,
+
+i.e. the height of object should be bigger
+
+-> Verdndern sie das Objekt, indem sie dessen oberste Reihe um einen
+Pixel nach oben ziehen - das Objekt wird htzher.
+
+Modify object by moving its top of row towards down with one pixel
+
+i.e. the height of object should be smaller
+
+->Verdndern sie das Objekt, indem sie dessen oberste Reihe um einen
+Pixel nach unten ziehen - das Objekt wird kleiner. 
+
+Modify object by moving its right sides of column towards right with
+
+one pixel, i.e. the width of object should be bigger
+
+-> Verdndern sie das Objekt, indem sie den rechten Rand nach rechts
+ziehen - das Objekt wird grtzYAer 
+
+Modify object by moving its bottom of row towards up with one
+
+pixel, i.e. the height of object should be smaller
+
+-Verdndern sie das Objekt, indem sie dessen unterste Zeile um einen
+Pixel nach oben ziehen - die Htzhe nimmt ab
+
+Modify object by moving its bottom of row towards down with one
+
+pixel, i.e. the height of object should be bigger
+
+-> Verdndern sie das Objekt, indem sie dessen unterste Zeile um einen
+Pixel nach unten ziehe - die Htzhe nimmt zu
+
+Choosing multiple objects
+
+Auswahl verschiedener Objekte
+
+If user wants to choose more than one object, there are two ways to
+achieve it.
+
+Um mehr als ein Objekt auszuwdhlen:
+
+(i) Select one of the objects first, and then press ``Shift'' button as
+well as the
+
+more other objects, multiple objects can finally be selected.
+
+Wdhlen sie eins als erstes aus, dr'cken sie die ``Shift``taste und
+markieren sie die anderen Objekte, diese sind dann alle markiert. 
+
+(ii) Press the left key of mouse and pull it to draw a box, all the
+objects included
+
+or partially included in the box will be selected.
+
+Klicken sie die linke Maustaste und bewegen sie es in die gew'nschte
+Richtung, um eine Box zu erzeugen, deren Inhalt die gew'nschten Objekte
+sind.
+
+MAINTAINANCE AND FREQUENT MALFUNCTION HANDLES
+
+Wartung und Reparatur
+
+1. Keep the LED Moving Display on good conditions. High humidity climate
+or wet place
+
+should be avoided.
+
+Behandeln sie den LED Moving Display gut. Hohe Luftfeuchtigkeit oder ein
+feuchter Platz sollten vermieden werden. 
+
+2. If the LED Moving Display cannot work properly during receiving
+signal, the possible
+
+reason may be using up in the battery. In such case, you must replace it
+with the
+
+new one.
+
+Falls dieser nicht richtig funktioniert, wdhrend er ein Signal der FB
+empfdngt, ktznnte die mtzgliche Ursache sein, dass die Batterien leer
+sind. Ersetzen Sie sie.
+
+3. If there is an error during transmitting signal, the possible causes
+include:
+
+Falls ein Fehler  wdhrend des 'bertragungssignals auftritt:
+
+(i) Improper connection between computer and serial port of LED Moving
+
+Display.
+
+Fehlerhafte Verbindung zwischen dem Computer und dem serial port des LED
+Moving Display. 
+
+(ii) Some faults occur in communication line.
+
+Fehler innerhalb der Verbindungslinie.
+
+4. If there are any other problems, please contact with our expert for
+the aids.
+
+Note: We have no responsibility to notify you if there are any changes
+with the
+
+technical parameters in future.
+
+Bei weiteren Problemen wenden Sie sich bitte an ihren Experten. 
+
+Achtung: Wir 'bernehmen keine Verpflichtung daf'r, sie dar'ber zu
+informieren, falls es  in Zukunft Dnderungen in den Technischen
+Einstelllungen geben wird.
+

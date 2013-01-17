@@ -1,0 +1,288 @@
+Structure of Protocol:
+
+Text Data
+
+This is the actual part of the message that includes the message itself
+and information on the colors, the fonts, the sizes.
+
+h	1	2	3	4	5	6	7	8	9	10	- - - - - - 	1000	1001
+
+
+
+h	Packet header also serves as destination Sign identifier
+
+1	Data Code for LED pixels
+
+7FH: the header for red (for the first frame only)
+
+6FH: the header for green (for the first frame only)
+
+7EH: the header for red (for the middle frames, 0-N frames)
+
+6EH: the header for green (for the middle frames, 0-N frames)
+
+7DH: the header for red (for the last frame only)
+
+6DH: the header for green (for the last frame only)
+
+2	Nil
+
+3 - 10	Nil
+
+11 - 1000	Text data
+
+1001	Pocket end for checking
+
+
+
+Command Data
+
+This is the actual part of the message that includes the functions such
+as scroll up, scroll down, Time, Animation etc.
+
+h	1	2	3	4	5	6	7	8	9	10	Modes for 1st frame	Modes for 2nd frame	- - - - -
+-	1000	1001
+
+
+
+h	Packet header also serves as destination Sign identifier
+
+1	Command code (5FH)
+
+2	The total no. of frames for uploading
+
+3	Nil
+
+4	The 1st frame (default=0)
+
+5	The last frame
+
+6	The length of the sign ( = the pixel wide / 8 )
+
+7	The height of the sign ( = the pixel height / 8)
+
+8	Color (1: single color; 2: tricolor)
+
+9	The max. frames for the sign
+
+10	D0=0
+
+11 --	Modes for each frame, each frame contains 6 bytes
+
+1001	Pocket end for checking
+
+
+
+Import Mode:
+
+0: Move from right
+
+1: Move from left
+
+2: Scroll up
+
+3: Scroll bottom
+
+4: Jump from right
+
+5: Open from left
+
+6: Open from right
+
+7: Open from bottom
+
+8: Open from up
+
+9: Open from center
+
+10: Open from both sides
+
+11: Cover from center
+
+12: Cover from both sides
+
+13: Immediate
+
+14: Ready 
+
+15: Random
+
+Export Mode:
+
+0: Move from right
+
+1: Move from left
+
+2: Scroll up
+
+3: Scroll bottom
+
+4: Jump from right
+
+5: Open from left
+
+6: Open from right
+
+7: Open from bottom
+
+8: Open from up
+
+9: Open from center
+
+10: Open from both sides
+
+11: Cover from center
+
+12: Cover from both sides
+
+13: Immediate
+
+14: Ready 
+
+15: Random
+
+Delay: 0 - 19 seconds
+
+Speed: 0 - 7 moving speeds; 0=fastest
+
+Append Mode: 
+
+1st bit: Cartoon; 2nd bit: Wait; 3rd bit: Nil; 4th bit: Time; 5th bit:
+Continuum; 6th bit: Pause; 7th bit: Nil; 8th bit: Flicker
+
+Animation:
+
+(0: Eat bean; 1: Toxophily; 2: Weight lifting; 3: Lion; 4: Horse)
+
+Clock Data
+
+h	1	2	3	4	5	6	7	8	9	10	11	12	- - - - - -	1000	1001
+
+
+
+h	Packet header also serves as destination Sign identifier
+
+1	Clock code (4FH)
+
+2	The first two digits. E.g: 20XX 
+
+(Year, month, day, week, month, minute, second to be BCD code)
+
+3	The last two digits. E.g: XX03
+
+4	Month
+
+5	Day
+
+6	Week
+
+7	Hour
+
+8	Minute
+
+9	Second
+
+10	the position to be displayed: X-axis ( unit: bytes)
+
+11	the position to be displayed: Y-axis ( unit: bytes)
+
+12	D0=0, to display with second
+
+D0=1, to display without second
+
+13	Nil
+
+
+
+Structure of the Pocket Head, ``h''
+
+X	X	X	X	X	X	X	X	X	X	X	Address	Address	Address	Address
+
+
+
+Communication Parameters
+
+Start Code: 1 bit; Data: 8 bit; End code: 1 bit; Baud rate: 9600bps
+
+10 bytes command data
+
+990 bytes text data
+
+1000 bytes
+
+6 bytes
+
+6 bytes
+
+Import Mode
+
+Export Mode
+
+Delay
+
+Speed
+
+Append mode
+
+Animation
+
+1 byte
+
+1 bit
+
+Cartoon
+
+Wait
+
+Nil
+
+Time
+
+Continuum
+
+Pause
+
+Nil
+
+Flicker
+
+1000 bytes
+
+15bytes
+
+Start
+
+To Receive Pocket Head
+
+Is the head corrected?
+
+Return
+
+Yes
+
+All data finished?
+
+No
+
+Yes
+
+Return #4bh
+
+Next Data
+
+To receive 1000 bytes data
+
+To receive the pocket end
+
+Is the end corrected?
+
+Yes
+
+No
+
+Return #59h after each data completed
+
+No
+
+Return #45h
+
