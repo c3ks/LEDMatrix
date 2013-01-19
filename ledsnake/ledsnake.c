@@ -67,7 +67,69 @@ struct { int size; char map[2049]; } levels[] = {
 	,
 	{
 	16,
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"x                                                                                                                              x"
+	"x                                                                                                                              x"
+	"x                                                                                                                              x"
+	"x                                                                                                                              x"
+	"x                                                                                                                              x"
+	"x                                                                                                                              x"
+	"x                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                x"
+	"x                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                x"
+	"x                                                                                                                              x"
+	"x                                                                                                                              x"
+	"x                                                                                                                              x"
+	"x                                                                                                                              x"
+	"x                                                                                                                              x"
+	"x                                                                                                                              x"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	}
+	,
+	{
+	16,
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"x                                                                                                                              x"
+	"x                                                                                                                              x"
+	"x                                                                                                                              x"
+	"x         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx         x"
+	"x         x                                                                                                          x         x"
+	"x         x                                                                                                          x         x"
+	"x         x      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx      x         x"
+	"x         x      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx      x         x"
+	"x         x                                                                                                          x         x"
+	"x         x                                                                                                          x         x"
+	"x         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx         x"
+	"x                                                                                                                              x"
+	"x                                                                                                                              x"
+	"x                                                                                                                              x"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	}
+	,
+	{
+	16,
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"x               x                                x                                x                                x           x"
+	"x               x                                x                                x                                x           x"
+	"x               x                                x                                x                                x           x"
+	"x               x                                x                                x                                x           x"
+	"x               x                                x                                x                                x           x"
+	"x               x                x               x                x               x                x               x           x"
+	"x               x                x               x                x               x                x               x           x"
+	"x               x                x               x                x               x                x               x           x"
+	"x               x                x               x                x               x                x               x           x"
+	"x                                x                                x                                x                           x"
+	"x                                x                                x                                x                           x"
+	"x                                x                                x                                x                           x"
+	"x                                x                                x                                x                           x"
+	"x                                x                                x                                x                           x"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	}
+	,
+	{
+	16,
 	"xxxxxxxxxxxxxxxxx               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"x               x                                                                                                              x"
+	"x               x                                                                                                              x"
 	"x               x                                                                                                              x"
 	"x               x                                                                                                              x"
 	"x               x                                                                                                              x"
@@ -80,29 +142,287 @@ struct { int size; char map[2049]; } levels[] = {
 	"x                              x                                                                                               x"
 	"x                              x                                                                                               x"
 	"x                              x                                                                                               x"
-	"x                              x                                                                                               x"
-	"x                              x                                                                                               x"
-	"xxxxxxxxxxxxxxxx               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxx              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 	}
 	,
 	{
-	-1,
+	16,
+	"xxxxxxxxxxxxxxxxx              xxxxxxxxxxxxxxxxx              xxxxxxxxxxxxxxxxx              xxxxxxxxxxxxxxxxx                 x"
+	"x               x                              x                              x                              x                 x"
+	"x               x                              x                              x                              x                 x"
+	"x               x                              x                              x                              x                 x"
+	"x               x                              x                              x                              x                 x"
+	"x               x                              x                              x                              x                 x"
+	"x               x                              x                              x                              x                 x"
+	"x               x                              x                              x                              x                 x"
+	"x               xxxxxxxxxxxxxxxx               xxxxxxxxxxxxxxxx               xxxxxxxxxxxxxxxx               xxxxxxxxxxxxxxxxxxx"
+	"x                              x                              x                              x                                 x"
+	"x                              x                              x                              x                                 x"
+	"x                              x                              x                              x                                 x"
+	"x                              x                              x                              x                                 x"
+	"x                              x                              x                              x                                 x"
+	"x                              x                              x                              x                                 x"
+	"xxxxxxxxxxxxxxxxx              xxxxxxxxxxxxxxxxx              xxxxxxxxxxxxxxxxx              xxxxxxxxxxxxxxxxx                 x"
+	}
+	,
+	{
+	16,
+	"                                                                                                                                "
+	"                xxxxxxxxxxxxxxxx                                              xxxxxxxxxxxxxxxx                                  "
+	"                x              x                                              x              x                                  "
+	"                x              x                                              x              x                                  "
+	"                x              x                                              x              x                                  "
+	"                x              x                                              x                             xxxxxxxxxxxxxxxxx   "
+	"                x              x               x     xxxxxxxxxx               x                             x               x   "
+	"                x              x               x              x               x                             x               x   "
+	"                x              x               x              x               x                             x               x   "
+	"                               x               x              x               xxxxxxxxxxxxxxxx              x               x   "
+	"                               x               x              x                                             x               x   "
+	"                               x               x              x                                             x               x   "
+	"                               x               x              x                                             x               x   "
+	"                xxxxxxxxxxxxxxxx               x              x                                             x               x   "
+	"                                               x              x                                             x               x   "
+	"                                               xxxxxxxxxxxxxxxx                                             xxxxxxxxxxx     x   "
+	}
+	,
+	{
+	16,
 	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-	"x               x                                x                                x                                x           x"
-	"x               x                                x                                x                                x           x"
-	"x               x                                x                                x                                x           x"
-	"x               x                                x                                x                                x           x"
-	"x               x                                x                                x                                x           x"
-	"x               x                x               x                x               x                x               x           x"
-	"x               x                x               x                x               x                x               x           x"
-	"x               x                x               x                x               x                x               x           x"
-	"x               x                x               x                x               x                x               x           x"
-	"x                                x                                x                                x                           x"
-	"x                                x                                x                                x                           x"
-	"x                                x                                x                                x                           x"
-	"x                                x                                x                                x                           x"
-	"x                                x                                x                                x                           x"
 	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                                                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                                                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                                                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                                                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                                                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                                                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                                                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                                                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                                                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                                                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	}
+	,
+	{
+	16,
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                xxxxx                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                xxxxx                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                xxxxx                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                xxxxx                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                                                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                xxxxx                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                xxxxx                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                xxxxx                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                xxxxx                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                xxxxx                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	}
+	,
+	{
+	16,
+	"x         x x  x                                                                                                               x"
+	"        x          x                                                               x                                            "
+	"       x     xxx                                                                                         x                      "
+	"           x    x    x   x                               x                                                                      "
+	"       x        x                                                   x                                                  x        "
+	"         x     x                                                                                                                "
+	"           x x      x                                                      x               x                                    "
+	"                         x                   x                                                                                  "
+	"                                                       x                                                                        "
+	"                                     x                xxx                                                                       "
+	"                                                       x                                                          xx            "
+	"        x       x                                                                 x      x                      xxxxxx          "
+	" x                       x                                                                             x          xx            "
+	"                                                              x        x                                                        "
+	"                                                      x                                      x                                  "
+ 	"                                 x                                                  x                                           "
+	}
+	,
+	{
+	16,
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                xxxxxx                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxx                                       xxxxxxxxxxxx                                       xxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxx                                             xxxxxxxxxxxxxx                                             xxxxxxxxxxxx"
+	"xxxxxxx                                                 xxxxxxxxxxxxxxxx                                                 xxxxxxx"
+	"xxxx                                                     xxxxxxxxxxxxxx                                                     xxxx"
+	"xx                                                        xxxxxxxxxxxx                                                        xx"
+	"                                                             xxxxxx                                                             "
+	"                                                              xxxx                                                              "
+	"xx                                                             xx                                                             xx"
+	"xxxx                                                          xxxx                                                          xxxx"
+	"xxxxxxx                                                       xxxx                                                       xxxxxxx"
+	"xxxxxxxxxxxx                                                   xx                                                   xxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxx                                           xxxx                                           xxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                             xxxxxxxxxxxx                             xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx       xxxxxxxxxxxxxxxxxxxx       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	}
+	,
+	{
+	16,
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    "
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx            "
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                     "
+	"                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                             "
+	"                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                     "
+	"                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                             "
+	"                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                                      "
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                                              "
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                                                      "
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                                       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                                               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxx                                                                       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxx                                                                                                               "
+	"xxxxxxxx                                                                                                                        "
+	"                                                                                                                                "
+	}
+	,
+	{
+	16,
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxx       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxx         xxxxxxxxxxxxxxxxxxxxxxxx             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xx           xxxxxxxxxxxxxxxxxxx                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                      xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"x             xxxxxxxxxxxxxx                       xxxxxxxxxxxxxxxxxxxxxxxxxxx                         xxxxxxxxxxxxxxxxxxxxxxxxx"
+	"x             xxxxxx                                xxxxxxxxxxxxxxxxxxxxxxxx                             xxxxxxxxxxxxxxxxxxxxxxx"
+	"                                         xxxx         xxxxxxxxxxxxxxxxxxx           xxxxxxxxxx               xxxxxx             "
+	"                                     xxxxxxxxxx        xxxxxxxxxxxxxxx             xxxxxxxxxxxxxx                               "
+	"                                 xxxxxxxxxxxxxxx         xxxxxxxxxx              xxxxxxxxxxxxxxxxxxx                            "
+	"                             xxxxxxxxxxxxxxxxxxxx          xxxx                xxxxxxxxxxxxxxxxxxxxxxx                          "
+	"x                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                          xxxxxxxxxxxxxxxxxxxxxxxxxxx                  xxxxxx"
+	"x             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx       xxxxxxxxxxxxx"
+	"xx           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxx         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxx       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	}
+	,
+	{
+	16,
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx        xxxxxxxxxxxxxx         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxx       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx             xxxxxxxxx             xxxxxxxxxxxxxxxxxxxxxx            xxxxxxxxxxxxxxx"
+	"xxx         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx               xxxxxxx               xxxxxxxxxxxxxxxxxx                 xxxxxxxxxxxxx"
+	"xx           xxxxxxxxxxxxx        xxxxxxx                  xxxxx                xxxxxxxxxxxxxxxxx                    xxxxxxxxxxx"
+	"x             xxxx                    xx                   xxxxx                 xxxxxxxxxxxxxx                       xxxxxxxxxx"
+	"x             x                               xxxx         xxxx       xxxxx      xxxxxxxxxxxxx          xxxxxxxxx      xxxxxxxxx"
+	"                                            xxxxxxxx       xxx       xxxxxxx     xxxxxxxxxxxx         xxxxxxxxxxxxx     xxxxxxxx"
+	"                                           xxxxxxxxx      xxxx      xxx   xx      xxxxxxxxx         xxxxxx    xxxxxx            "
+	"                          xxxxxxx          xxxxxxxxxx    xxxx      xxx     xx      xxxxxx         xxxxxx       xxxxxx           "
+	"                   xxxxxxxxxxxxxxxxx         xxxxxxxxxxxxxxx               xx                    xxxxxx        xxxxxxx          "
+	"x             xxxxxxxxxxxxxxxxxxxxxxxx          xxxxxxxxxx                  xx                   xxxxxx        xxxxxxx      xxxx"
+	"x             xxxxxxxxxxxxxxxxxxxxxxxxx                                     xx                     xxxx        xxxxxx       xxxx"
+	"xx           xxxxxxxxxxxxxxxxxxxxxxxxxxx                        xxx         xxx             xx        xxxxx    xxxxxx      xxxxx"
+	"xxx         xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                      xxxxxx       xxxxx         xxxxx        xxxx    xxxxxx      xxxxx"
+	"xxxx       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                  xxxxxxxxx    xxxxxxxxxxxxxxxxxxxxx               xxxxxxx    xxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx            xxxxxxxxxxxxxxxxxx"
+	}
+	,
+	{
+	16,
+	"     xxxxxxxxxxxxxxx   xxxxxxxxxxxxxxxxxxxxxx        x          xxx          xxxxxxx        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"    xxxx  xxx   xxxx  xxxx    xx    xx    xx                   x               xxx         xxxxxxxx    xx    xx    xx    xx    x"
+	"  xxxxx    xx   xxxxxxxxxx    xx    xx    xx                                          xxxxxxxxxxxxx    xx    xx    xx    xx    x"
+	"xxxxxx      x   xxxxxxxxxx                xxx     x         x          x  xxx       xxxxxxxxxxx  xx                            x"
+	"xxx             xxxxxxxxxx                xxxx  xxxxx     xxxxx    x  xxxxxxxx     xxxxxxxx      xx                            x"
+	"xxx             xxxxxxxxxx                xxxxxxxxxxxxx  xxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxxx      xx      xx      xx      xx    x"
+	"xxx     xx       xxxxxxxxxxx            xxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xx     xxxx    xxxx    xxxx   x"
+	"xx     xxxx       xxxxxxxxxxx x      x xxxxxxxxxxxxxxx    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xx     xxxx    xxxx    xxxx   x"
+	"x      xxxx        xxxxxxxxxx          xxxxxxxxxxxxxxx     xxxxxxxxxxxxxxx  xxxxx    xx    xx    xx                            x"
+	"                    xxxxxxxxx          xxxxxxxxxxxxxx      xxxxxxxxxxxx       xxx    xx    xx    xx                            x"
+	"xx                xx                         xxxxxxx        xxxxxxxxxxx        xx                xx      xxxx                  x"
+	"xx                xx                         xxxxxxx         xxxxxxxxx         xxx              xx      x    x                 x"
+	"xx                xx    x    x    x    x   xxxxxxx             xxxxxxx         xxxx   x    x   xx       x    x                 x"
+	"xx                xx                       xxxxxxxxxxxx   xxxxxxxxxxxxxx     xxxxxx            xx       x    x                 x"
+	"xx                                         xxxxxxxxxxxx   xxxxxxxxxxxxxxx   xxxxxxx                     x    x      x     x    x"
+	"xx                                                              xxxxxxxxx   xxxxxxx                                 xxxxxxx    x"
+	}
+	,
+	{
+	16,                                                                                                                                
+	"                                                                                                                                "
+	"                                                                                                                                "
+	"                                                                                                                                "
+	"                                                                                                                                "
+	"xxxxxxxxxx                                 xxxxxxxxxxxxx                                xxxxxxxxxxxxx                           "
+	"xxxxxxxxxxxx                            xxxxxxxxxxxxxxxxxx                           xxxxxxxxxxxxxxxxxx                         "
+	"xxxxxxxxxxxxx                        xxxxxxxxxxxxxxxxxxxxxx                        xxxxxxxxxxxxxxxxxxxxx                        "
+	"xxxxxxxxxxxxx                      xxxxxxxxxxxxxxxxxxxxxxxx                     xxxxxxxxxxxxxxxxxxxxxxxxx                      x"
+	"xxxxxxxxxxxxxx                  xxxxxxxxxxxxxxxxxxxxxxxxxxx                   xxxxxxxxxxxxxxxxxxxxxxxxxxx                    xxx"
+	"xxxxxxxxxxxxx                 xxxxxxxxxxxxxxxxxxxx  xxxxxx                  xxxxxxxxxxxxxxxxxxxx  xxxxxxx                  xxxxx"
+	"xxx  xxxxxxx               xxxxxxxxxxxxxxxxxxxxx    xxxxx                 xxxxxxxxxxxxxxxxxxxxx   xxxxxx                 xxxxxxx"
+	"xx    xxx                xxxxxxxxxxxxxxxxxxxxxxx                       xxxxxxxxxxxxxxxxxxxxxxx                         xxxxxxxxx"
+	"xx                     xxxxxxxxxxxxxxxxxxxxxxxxx                    xxxxxxxxxxxxxxxxxxxxxxxxxxx                     xxxxxxxxxxxx"
+	"xx                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                  xxxxxxxxxxxxxx"
+	"xxxx            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx           xxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	}
+	,
+	{
+	16,
+	"xxxxxxxxxxxxxxxxxxxxxxx      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"                      x                                                                                                         "
+	"xxxxxxxxxxxxxxxx      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"               x                                                                                                                "
+	"               x                                                                                                                "
+	"xxxxxxxxx      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"        x                                                                                                                       "
+	"        x                                                                                                                       "
+	"        x                                                                                                                       "
+	"x       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"x                                                                                                                              x"
+	"x                                                                                                                              x"
+	"x                                                                                                                              x"
+	"x                                                                                                                              x"
+	"xxxxxxxxxxxxxxxxxxxxxxx      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	"xxxxxxxxxxxxxxxxxxxxxxx      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	}
+	,
+	{
+	16,
+	"xxxxxxxxxxxxxxxxxxxxxxxxx   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx x xxxxxxxxxxxxx"
+	"x                           x                              x                                                                   x"
+	"x                           x                              x                                                                   x"
+	"x                           x                              x                                                                   x"
+	"x   xxxxxxxxxxxxxxxxxxxxxxxxx       x   xxxxxxxxxxxxxxx    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx       xxxxxxxxxxxxx   x"
+	"x   x                               x       x                                                          x       x           x   x"
+	"x   x                               x       x                                                          x       x           x   x"
+	"x   x                               x       x                                                          x       x           x   x"
+	"x   x   x               xxxxxxxxxxxxxxxxx   x    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   x    xxxx   xxxxx   x   x"
+	"x   x                   x                   x                                                      x   x       x   x       x   x"
+	"x   x       xxxxxxxxxxxxx                   x                                                      x   x       x   x       x   x"
+	"x   x                   x                   x    xxxxxxxxxxx    x                                  x   x       x   x       x   x"
+	"x                       x   xxxxxxxxxxxxxxxxx              x    x                                  x   xxx     x   xxxxxxxxx   x"
+	"x                       x   x                              x    x                                              x               x"
+	"x                       x   x                              x    x                                              x               x"
+	"xxxxxxxxxxxxxxxxxxxxxxxxx   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx               x"
+	}
+	,
+	{
+	16,
+	"                                                                                          xxxxxxxxxxxxxxxx                      "
+	"                                                                                         xx              xx                     "
+	"                                                                                         x     x    x     x                     "
+	"                                                                                         x      x   x     x                     "
+	"      xxxxxx         xxxxxx         xxxxxx        x   xx   xxxx   xxxx  xxxx  xxx  x     x       x   x              xx          "
+	"     x     x        x     x        x     x        x   x        x  x     x     x    x     x        x   xxxxxxxxxxxxxxx xxx       "
+	"    x              x              x               x  x         x  x     x     x    x     x         x             xx x x x       "
+	"   x              x              x                x  x         x  x     x     x    x     x          xxxxxxxxxxxxxxxx xx xx      "
+	"   x              x              x                xxx      xx  x   xx    xx   xx   x     x          xxxxxxxxxxxxxxxxx   xx      "
+	"   x              x              x                xxx     x    x     x     x  x    x     x         x              xxx  xxx      "
+	"   x              x              x                x  x    x    x     x     x  x    x     x        x   xxxxxxxxxxxxxxxxx xx      "
+	"    x              x              x               x  x    x    x     x     x  x    x     x       x   x               xxx x      "
+	"     x     x        x     x        x     x        x   x   x    x     x     x  x    x     x      x   x     x       xxxx xx       "
+	"      xxxxxx         xxxxxx         xxxxxx        x   xx   xxxx   xxxx  xxxx  xxx  xxx   x     x    x     x        xxxx  x      "
+	"                                                                                         xx              xx           xxxx      "
+	"                                                                                          xxxxxxxxxxxxxxxx           xx x       "
 	}
 };
 
