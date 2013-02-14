@@ -17,7 +17,7 @@ enum { LEFT, RIGHT, UP, DOWN };
 #define HEIGHT 16
 #define WIDTH 128
 
-char *host = "10.0.1.242";
+char *host = "ledpanel.lan";
 int port = 1021;
 int dopause = 0;
 
