@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/repos/avr-libs/!svn/ver/49/net/udp/dhcp-client
+END
+dhcp_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/avr-libs/!svn/ver/43/net/udp/dhcp-client/dhcp_client.h
+END
+dhcp_client.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/avr-libs/!svn/ver/49/net/udp/dhcp-client/dhcp_client.c
+END

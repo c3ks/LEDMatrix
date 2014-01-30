@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/repos/avr-libs/!svn/ver/52/net/base
+END
+ip.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/repos/avr-libs/!svn/ver/43/net/base/ip.h
+END
+nic.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/repos/avr-libs/!svn/ver/44/net/base/nic.h
+END
+icmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/repos/avr-libs/!svn/ver/44/net/base/icmp.c
+END
+arp.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/repos/avr-libs/!svn/ver/44/net/base/arp.c
+END
+icmp.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/repos/avr-libs/!svn/ver/43/net/base/icmp.h
+END
+arp.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/repos/avr-libs/!svn/ver/43/net/base/arp.h
+END
+ip.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/repos/avr-libs/!svn/ver/43/net/base/ip.c
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/repos/avr-libs/!svn/ver/44/net/base/config.h
+END
+nic.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/repos/avr-libs/!svn/ver/52/net/base/nic.c
+END

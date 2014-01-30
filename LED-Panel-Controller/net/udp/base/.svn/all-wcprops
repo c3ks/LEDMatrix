@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/repos/avr-libs/!svn/ver/54/net/udp/base
+END
+udp.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/repos/avr-libs/!svn/ver/54/net/udp/base/udp.c
+END
+udp.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/repos/avr-libs/!svn/ver/47/net/udp/base/udp.h
+END

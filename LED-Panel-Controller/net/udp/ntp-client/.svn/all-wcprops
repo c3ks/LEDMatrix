@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/repos/avr-libs/!svn/ver/44/net/udp/ntp-client
+END
+ntp_client.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/avr-libs/!svn/ver/44/net/udp/ntp-client/ntp_client.c
+END
+ntp_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/avr-libs/!svn/ver/43/net/udp/ntp-client/ntp_client.h
+END

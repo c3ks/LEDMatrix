@@ -1,0 +1,643 @@
+Archive member included because of file (symbol)
+
+/usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_udivmodqi4.o)
+                              ./graphic-lcd.o (__udivmodqi4)
+/usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_udivmodsi4.o)
+                              ./net/udp/ntp-client/ntp_client.o (__udivmodsi4)
+/usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/crtm32.o (exit)
+/usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_copy_data.o)
+                              ./graphic-lcd.o (__do_copy_data)
+/usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_clear_bss.o)
+                              ./graphic-lcd.o (__do_clear_bss)
+/usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_lshrdi3.o)
+                              ./timer.o (__lshrdi3)
+/usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_ashrdi3.o)
+                              ./net/udp/ntp-client/ntp_client.o (__ashrdi3)
+/usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_prologue.o)
+                              /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_lshrdi3.o) (__prologue_saves__)
+/usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_epilogue.o)
+                              /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_lshrdi3.o) (__epilogue_restores__)
+/usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a(memcmp_P.o)
+                              ./net/udp/dhcp-client/dhcp_client.o (memcmp_P)
+/usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a(memcpy_P.o)
+                              ./net/udp/dhcp-client/dhcp_client.o (memcpy_P)
+/usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a(strncmp_P.o)
+                              ./panel-controller.o (strncmp_P)
+/usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a(memcpy.o)
+                              ./net/udp/dhcp-client/dhcp_client.o (memcpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+nic_buffer          0x258             ./net/base/nic.o
+nic_setmacfunction  0x2               ./net/base/nic.o
+dhcp_name           0x2               ./net/udp/dhcp-client/dhcp_client.o
+nic_up              0x1               ./net/base/nic.o
+schneller_timer     0x4               ./net/udp/dhcp-client/dhcp_client.o
+nic_gateway_ip      0x4               ./net/base/nic.o
+nic_netmask_bits    0x1               ./net/base/nic.o
+lcd_content         0x200             ./graphic-lcd.o
+ptr                 0x2               ./main.o
+ip_identification   0x2               ./net/base/ip.o
+nic_ip_valid        0x1               ./net/base/nic.o
+nic_sendfunction    0x2               ./net/base/nic.o
+nic_receivefunction
+                    0x2               ./net/base/nic.o
+ntp_set_time        0x2               ./net/udp/ntp-client/ntp_client.o
+ntp_delay           0x20              ./net/udp/ntp-client/ntp_client.o
+nic_mac             0x6               ./net/base/nic.o
+nic_ip              0x4               ./net/base/nic.o
+enc28j60_revision   0x1               ./dev/enc28j60/enc28j60.o
+ntp_server          0x4               ./net/udp/ntp-client/ntp_client.o
+enc28j60_current_bank
+                    0x1               ./dev/enc28j60/enc28j60.o
+arp_table           0x64              ./net/base/arp.o
+enc28j60_next_packet_ptr
+                    0x2               ./dev/enc28j60/enc28j60.o
+ntp_offset          0x20              ./net/udp/ntp-client/ntp_client.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/crtm32.o
+LOAD ./graphic-lcd.o
+LOAD ./main.o
+LOAD ./panel-controller.o
+LOAD ./timer.o
+LOAD ./net/udp/ntp-client/ntp_client.o
+LOAD ./net/udp/dhcp-client/dhcp_client.o
+LOAD ./net/udp/base/udp.o
+LOAD ./net/tcp/base/tcp.o
+LOAD ./net/base/arp.o
+LOAD ./net/base/icmp.o
+LOAD ./net/base/ip.o
+LOAD ./net/base/nic.o
+LOAD ./dev/soft-spi/spi-master.o
+LOAD ./dev/enc28j60/enc28j60.o
+LOAD /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a
+LOAD /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x37d4
+ *(.vectors)
+ .vectors       0x0000000000000000       0x54 /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/crtm32.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x0000000000000054      0x28f ./graphic-lcd.o
+                0x0000000000000054                charset
+ .progmem.data  0x00000000000002e3        0xc ./panel-controller.o
+ .progmem.data  0x00000000000002ef        0xc ./net/udp/ntp-client/ntp_client.o
+                0x00000000000002ef                NTP_CLIENT_MONTH_TO_DAYS
+ .progmem.data  0x00000000000002fb       0x12 ./net/udp/dhcp-client/dhcp_client.o
+                0x00000000000002fb                DHCP_Basic_Content
+                0x00000000000002ff                DHCP_Transaction_ID
+                0x0000000000000303                DHCP_Magic_Cookie
+                0x0000000000000307                DHCP_Option_Discover
+                0x000000000000030a                DHCP_Option_Request
+ .progmem.data  0x000000000000030d       0x2e ./dev/enc28j60/enc28j60.o
+                0x000000000000030d                enc28j60_config
+                0x000000000000033c                . = ALIGN (0x2)
+ *fill*         0x000000000000033b        0x1 00
+                0x000000000000033c                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000000000033c        0x0 linker stubs
+ *(.trampolines*)
+                0x000000000000033c                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000000000033c                __ctors_start = .
+ *(.ctors)
+                0x000000000000033c                __ctors_end = .
+                0x000000000000033c                __dtors_start = .
+ *(.dtors)
+                0x000000000000033c                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000000000033c        0x0 /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/crtm32.o
+                0x000000000000033c                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000000000033c        0xc /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/crtm32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000348       0x16 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000348                __do_copy_data
+ .init4         0x000000000000035e       0x10 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_clear_bss.o)
+                0x000000000000035e                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000000000036e        0x8 /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/crtm32.o
+ *(.init9)
+ *(.text)
+ .text          0x0000000000000376        0x4 /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/crtm32.o
+                0x0000000000000376                __vector_1
+                0x0000000000000376                __bad_interrupt
+                0x0000000000000376                __vector_6
+                0x0000000000000376                __vector_3
+                0x0000000000000376                __vector_11
+                0x0000000000000376                __vector_13
+                0x0000000000000376                __vector_17
+                0x0000000000000376                __vector_19
+                0x0000000000000376                __vector_5
+                0x0000000000000376                __vector_4
+                0x0000000000000376                __vector_9
+                0x0000000000000376                __vector_2
+                0x0000000000000376                __vector_15
+                0x0000000000000376                __vector_8
+                0x0000000000000376                __vector_14
+                0x0000000000000376                __vector_16
+                0x0000000000000376                __vector_18
+                0x0000000000000376                __vector_20
+ .text          0x000000000000037a      0x49a ./graphic-lcd.o
+                0x000000000000037a                lcd_pset
+                0x00000000000003b0                lcd_pclear
+                0x00000000000003e8                lcd_rect
+                0x0000000000000440                lcd_clear
+                0x0000000000000454                lcd_color
+                0x0000000000000488                lcd_pput
+                0x0000000000000498                lcd_frame
+                0x00000000000004e8                lcd_hline
+                0x000000000000051a                lcd_vline
+                0x000000000000054c                lcd_char
+                0x0000000000000608                lcd_string
+                0x0000000000000668                lcd_string_P
+                0x00000000000006c2                lcd_picture
+                0x000000000000077a                lcd_dec
+                0x00000000000007c8                lcd_hex
+ .text          0x0000000000000814      0x16c ./main.o
+                0x0000000000000814                spi_init
+                0x000000000000081e                timer_init
+                0x000000000000082e                __vector_12
+                0x0000000000000892                __vector_10
+                0x0000000000000910                main
+ .text          0x0000000000000980      0x1d6 ./panel-controller.o
+                0x0000000000000980                panel_get_binary_packet
+                0x00000000000009a8                parse_command
+                0x0000000000000a6c                panel_get_text_packet
+ .text          0x0000000000000b56      0x34a ./timer.o
+                0x0000000000000b56                ttimer_init
+                0x0000000000000b6a                timer_timestamp_set
+                0x0000000000000d4e                __vector_7
+                0x0000000000000dc6                timer_doEvents
+ .text          0x0000000000000ea0      0xc06 ./net/udp/ntp-client/ntp_client.o
+                0x0000000000000ea0                ntp_client_init
+                0x0000000000000eba                ntp_client_timestamp_to_time
+                0x0000000000001006                get_daytime
+                0x0000000000001042                ntp_client_send_request
+                0x000000000000110c                ntp_client_start_request
+                0x0000000000001116                ntp_client_decode_packet
+ .text          0x0000000000001aa6      0x5b0 ./net/udp/dhcp-client/dhcp_client.o
+                0x0000000000001aa6                dhcp_init
+                0x0000000000001ab0                dhcp_generate_base_packet
+                0x0000000000001bc4                dhcp_add_option
+                0x0000000000001c06                dhcp_add_serveridentifier_option
+                0x0000000000001c3e                dhcp_add_iprequest_option
+                0x0000000000001c76                dhcp_add_name_option
+                0x0000000000001cc4                dhcp_generate_request_packet
+                0x0000000000001d6e                dhcp_get_packet
+                0x0000000000001ede                dhcp_generate_discover_packet
+                0x0000000000001f48                dhcp_send_discover
+                0x0000000000001f64                dhcp_doEvents
+                0x0000000000001ff6                dhcp_send_discover_packet
+ .text          0x0000000000002056      0x154 ./net/udp/base/udp.o
+                0x0000000000002056                udp_get_src_port
+                0x0000000000002066                udp_get_dest_port
+                0x0000000000002076                udp_generate_packet
+                0x00000000000020da                udp_packet_in
+ .text          0x00000000000021aa        0x2 ./net/tcp/base/tcp.o
+                0x00000000000021aa                tcp_packet_in
+ .text          0x00000000000021ac      0x47a ./net/base/arp.o
+                0x00000000000021ac                arp_init
+                0x00000000000021c4                arp_search_by_ip
+                0x00000000000021fc                arp_add_mac2ip
+                0x00000000000022ac                nic_buffer_to_unsigned_int
+                0x00000000000022be                arp_send_request
+                0x0000000000002346                arpGetMac
+                0x00000000000024e6                arp_packet_in
+ .text          0x0000000000002626       0x8c ./net/base/icmp.o
+                0x0000000000002626                icmp_packet_in
+ .text          0x00000000000026b2      0x176 ./net/base/ip.o
+                0x00000000000026b2                nethelp_checksum
+                0x000000000000274a                ip_generate_packet
+ .text          0x0000000000002828      0x1e6 ./net/base/nic.o
+                0x0000000000002828                nic_set_mac
+                0x0000000000002852                nic_set_ip
+                0x0000000000002890                netmask_bits_to_netmask
+                0x00000000000028b4                nic_send_packet
+                0x00000000000028c0                nic_buffer_to_ip
+                0x0000000000002916                nic_ip_to_buffer
+                0x0000000000002922                nic_copy_mac_to_buf
+                0x0000000000002942                nic_doEvents
+                0x00000000000029ae                nic_init
+ .text          0x0000000000002a0e       0x6a ./dev/soft-spi/spi-master.o
+                0x0000000000002a0e                soft_spi_init
+                0x0000000000002a20                spi_transfer_byte
+                0x0000000000002a64                spi_write_word
+ .text          0x0000000000002a78      0xa68 ./dev/enc28j60/enc28j60.o
+                0x0000000000002a78                enc28j60_receive_packet
+                0x0000000000002de0                enc28j60_set_mac
+                0x0000000000002fb0                enc28j60_init
+                0x00000000000033a8                enc28j60_send_packet
+ .text          0x00000000000034e0        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_udivmodqi4.o)
+ .text          0x00000000000034e0        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x00000000000034e0        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_exit.o)
+ .text          0x00000000000034e0        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_copy_data.o)
+ .text          0x00000000000034e0        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_clear_bss.o)
+ .text          0x00000000000034e0       0xe6 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_lshrdi3.o)
+                0x00000000000034e0                __lshrdi3
+ .text          0x00000000000035c6       0xe6 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_ashrdi3.o)
+                0x00000000000035c6                __ashrdi3
+ .text          0x00000000000036ac        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_prologue.o)
+ .text          0x00000000000036ac        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_epilogue.o)
+ .text          0x00000000000036ac        0x0 /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a(memcmp_P.o)
+ .text          0x00000000000036ac        0x0 /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a(memcpy_P.o)
+ .text          0x00000000000036ac        0x0 /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a(strncmp_P.o)
+ .text          0x00000000000036ac        0x0 /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a(memcpy.o)
+                0x00000000000036ac                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x00000000000036ac       0x18 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_udivmodqi4.o)
+                0x00000000000036ac                __udivmodqi4
+ .text.libgcc   0x00000000000036c4       0x44 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_udivmodsi4.o)
+                0x00000000000036c4                __udivmodsi4
+ .text.libgcc   0x0000000000003708        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000003708        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000003708        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000003708       0x38 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_prologue.o)
+                0x0000000000003708                __prologue_saves__
+ .text.libgcc   0x0000000000003740       0x36 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_epilogue.o)
+                0x0000000000003740                __epilogue_restores__
+ .text.avr-libc
+                0x0000000000003776       0x1a /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a(memcmp_P.o)
+                0x0000000000003776                memcmp_P
+ .text.avr-libc
+                0x0000000000003790       0x12 /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a(memcpy_P.o)
+                0x0000000000003790                memcpy_P
+ .text.avr-libc
+                0x00000000000037a2       0x1c /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a(strncmp_P.o)
+                0x00000000000037a2                strncmp_P
+ .text.avr-libc
+                0x00000000000037be       0x12 /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a(memcpy.o)
+                0x00000000000037be                memcpy
+                0x00000000000037d0                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000000000037d0        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_exit.o)
+                0x00000000000037d0                exit
+                0x00000000000037d0                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000000000037d0        0x4 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000000000037d4                _etext = .
+
+.data           0x0000000000800060       0x22 load address 0x00000000000037d4
+                0x0000000000800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/crtm32.o
+ .data          0x0000000000800060        0x0 ./graphic-lcd.o
+ .data          0x0000000000800060        0xb ./main.o
+                0x0000000000800069                dhcpname
+ .data          0x000000000080006b        0x1 ./panel-controller.o
+                0x000000000080006b                brightness
+ .data          0x000000000080006c        0x9 ./timer.o
+                0x000000000080006c                timestamp
+                0x0000000000800074                drift
+ .data          0x0000000000800075        0x0 ./net/udp/ntp-client/ntp_client.o
+ .data          0x0000000000800075        0x6 ./net/udp/dhcp-client/dhcp_client.o
+ .data          0x000000000080007b        0x0 ./net/udp/base/udp.o
+ .data          0x000000000080007b        0x0 ./net/tcp/base/tcp.o
+ .data          0x000000000080007b        0x0 ./net/base/arp.o
+ .data          0x000000000080007b        0x0 ./net/base/icmp.o
+ .data          0x000000000080007b        0x0 ./net/base/ip.o
+ .data          0x000000000080007b        0x6 ./net/base/nic.o
+ .data          0x0000000000800081        0x0 ./dev/soft-spi/spi-master.o
+ .data          0x0000000000800081        0x0 ./dev/enc28j60/enc28j60.o
+ .data          0x0000000000800081        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_udivmodqi4.o)
+ .data          0x0000000000800081        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000800081        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000800081        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000800081        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_clear_bss.o)
+ .data          0x0000000000800081        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_lshrdi3.o)
+ .data          0x0000000000800081        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_ashrdi3.o)
+ .data          0x0000000000800081        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_prologue.o)
+ .data          0x0000000000800081        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_epilogue.o)
+ .data          0x0000000000800081        0x0 /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a(memcmp_P.o)
+ .data          0x0000000000800081        0x0 /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a(memcpy_P.o)
+ .data          0x0000000000800081        0x0 /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a(strncmp_P.o)
+ .data          0x0000000000800081        0x0 /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a(memcpy.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0000000000800082                . = ALIGN (0x2)
+ *fill*         0x0000000000800081        0x1 00
+                0x0000000000800082                _edata = .
+                0x0000000000800082                PROVIDE (__data_end, .)
+
+.bss            0x0000000000800082      0x532
+                0x0000000000800082                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0000000000800082        0x0 /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x0000000000800082        0x0 ./graphic-lcd.o
+ .bss           0x0000000000800082        0x3 ./main.o
+                0x0000000000800082                enable
+                0x0000000000800083                col_nr
+                0x0000000000800084                row_nr
+ .bss           0x0000000000800085        0x0 ./panel-controller.o
+ .bss           0x0000000000800085        0x5 ./timer.o
+                0x0000000000800085                last_ntp_refresh
+                0x0000000000800089                ntp_wait
+ .bss           0x000000000080008a        0x1 ./net/udp/ntp-client/ntp_client.o
+                0x000000000080008a                ntp_state
+ .bss           0x000000000080008b        0x2 ./net/udp/dhcp-client/dhcp_client.o
+                0x000000000080008b                lease_renew_time
+ .bss           0x000000000080008d        0x0 ./net/udp/base/udp.o
+ .bss           0x000000000080008d        0x0 ./net/tcp/base/tcp.o
+ .bss           0x000000000080008d        0x0 ./net/base/arp.o
+ .bss           0x000000000080008d        0x0 ./net/base/icmp.o
+ .bss           0x000000000080008d        0x0 ./net/base/ip.o
+ .bss           0x000000000080008d        0x0 ./net/base/nic.o
+ .bss           0x000000000080008d        0x0 ./dev/soft-spi/spi-master.o
+ .bss           0x000000000080008d        0x0 ./dev/enc28j60/enc28j60.o
+ .bss           0x000000000080008d        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_udivmodqi4.o)
+ .bss           0x000000000080008d        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x000000000080008d        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_exit.o)
+ .bss           0x000000000080008d        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_copy_data.o)
+ .bss           0x000000000080008d        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x000000000080008d        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_lshrdi3.o)
+ .bss           0x000000000080008d        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_ashrdi3.o)
+ .bss           0x000000000080008d        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_prologue.o)
+ .bss           0x000000000080008d        0x0 /usr/lib/gcc/avr/4.4.4/avr5/libgcc.a(_epilogue.o)
+ .bss           0x000000000080008d        0x0 /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a(memcmp_P.o)
+ .bss           0x000000000080008d        0x0 /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a(memcpy_P.o)
+ .bss           0x000000000080008d        0x0 /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a(strncmp_P.o)
+ .bss           0x000000000080008d        0x0 /usr/lib/gcc/avr/4.4.4/../../../../avr/lib/avr5/libc.a(memcpy.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x000000000080008d      0x200 ./graphic-lcd.o
+                0x000000000080008d                lcd_content
+ COMMON         0x000000000080028d        0x2 ./main.o
+                0x000000000080028d                ptr
+ COMMON         0x000000000080028f       0x46 ./net/udp/ntp-client/ntp_client.o
+                0x000000000080028f                ntp_set_time
+                0x0000000000800291                ntp_delay
+                0x00000000008002b1                ntp_server
+                0x00000000008002b5                ntp_offset
+ COMMON         0x00000000008002d5        0x6 ./net/udp/dhcp-client/dhcp_client.o
+                0x00000000008002d5                dhcp_name
+                0x00000000008002d7                schneller_timer
+ COMMON         0x00000000008002db       0x64 ./net/base/arp.o
+                0x00000000008002db                arp_table
+ COMMON         0x000000000080033f        0x2 ./net/base/ip.o
+                0x000000000080033f                ip_identification
+ COMMON         0x0000000000800341      0x26f ./net/base/nic.o
+                0x0000000000800341                nic_buffer
+                0x0000000000800599                nic_setmacfunction
+                0x000000000080059b                nic_up
+                0x000000000080059c                nic_gateway_ip
+                0x00000000008005a0                nic_netmask_bits
+                0x00000000008005a1                nic_ip_valid
+                0x00000000008005a2                nic_sendfunction
+                0x00000000008005a4                nic_receivefunction
+                0x00000000008005a6                nic_mac
+                0x00000000008005ac                nic_ip
+ COMMON         0x00000000008005b0        0x4 ./dev/enc28j60/enc28j60.o
+                0x00000000008005b0                enc28j60_revision
+                0x00000000008005b1                enc28j60_current_bank
+                0x00000000008005b2                enc28j60_next_packet_ptr
+                0x00000000008005b4                PROVIDE (__bss_end, .)
+                0x00000000000037d4                __data_load_start = LOADADDR (.data)
+                0x00000000000037f6                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00000000008005b4        0x0
+                0x00000000008005b4                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00000000008005b4                PROVIDE (__noinit_end, .)
+                0x00000000008005b4                _end = .
+                0x00000000008005b4                PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.stab           0x0000000000000000     0x66a8
+ *(.stab)
+ .stab          0x0000000000000000      0xe58 ./graphic-lcd.o
+ .stab          0x0000000000000e58      0x4a4 ./main.o
+                                        0x708 (size before relaxing)
+ .stab          0x00000000000012fc      0x4a4 ./panel-controller.o
+                                        0x714 (size before relaxing)
+ .stab          0x00000000000017a0      0x3b4 ./timer.o
+                                        0x618 (size before relaxing)
+ .stab          0x0000000000001b54      0x7c8 ./net/udp/ntp-client/ntp_client.o
+                                        0xa68 (size before relaxing)
+ .stab          0x000000000000231c      0xa38 ./net/udp/dhcp-client/dhcp_client.o
+                                        0xc90 (size before relaxing)
+ .stab          0x0000000000002d54      0x390 ./net/udp/base/udp.o
+                                        0x624 (size before relaxing)
+ .stab          0x00000000000030e4      0x174 ./net/tcp/base/tcp.o
+                                        0x2dc (size before relaxing)
+ .stab          0x0000000000003258      0x6c0 ./net/base/arp.o
+                                        0x8c4 (size before relaxing)
+ .stab          0x0000000000003918      0x21c ./net/base/icmp.o
+                                        0x420 (size before relaxing)
+ .stab          0x0000000000003b34      0x3c0 ./net/base/ip.o
+                                        0x558 (size before relaxing)
+ .stab          0x0000000000003ef4      0x594 ./net/base/nic.o
+                                        0x840 (size before relaxing)
+ .stab          0x0000000000004488      0x45c ./dev/soft-spi/spi-master.o
+                                        0x618 (size before relaxing)
+ .stab          0x00000000000048e4     0x1dc4 ./dev/enc28j60/enc28j60.o
+                                       0x201c (size before relaxing)
+
+.stabstr        0x0000000000000000     0x2253
+ *(.stabstr)
+ .stabstr       0x0000000000000000     0x2253 ./graphic-lcd.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(LED-Panel-Controller.elf elf32-avr)
+LOAD linker stubs

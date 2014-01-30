@@ -1,0 +1,150 @@
+
+#include "nic.h"
+#include "arp.h"
+#include "ip.h"
+#include "icmp.h"
+
+
+#include "../tcp/base/tcp.h"
+
+
+#include "../udp/base/udp.h"
+
+
+char nic_mac[6];
+uint32_t nic_ip;
+uint32_t nic_gateway_ip;
+uint8_t nic_netmask_bits;
+uint8_t nic_ip_valid;
+uint8_t nic_up;
+
+f_sendpacket_t sendfunction;
+f_receivepacket_t receivefunction;
+f_setmac_t setmacfunction;
+
+char nic_buffer[NIC_BUFFERSIZE];
+
+void nic_set_mac(char* mac) {
+	for(uint8_t i = 0; i < 6; i++) {
+		nic_mac[i] = mac[i];
+	}
+
+	setmacfunction(mac);
+}
+
+void nic_set_ip(void) {
+
+	nic_ip = NIC_IP;
+	nic_gateway_ip = NIC_GATEWAY;
+	nic_netmask_bits = NIC_NETMASK_BITS;
+	nic_ip_valid = 1;
+}
+
+void nic_init(f_sendpacket_t sfunction, f_receivepacket_t rfunction, f_setmac_t smfunction) {
+
+	sendfunction = sfunction;
+	receivefunction = rfunction;
+	setmacfunction = smfunction;
+
+
+	char mac[6] = NIC_MAC;
+	nic_set_mac(mac);
+
+#ifdef NIC_CONFIG_STATIC
+	nic_set_ip();
+	nic_up = 1;
+#else
+	nic_ip_valid = 0;
+	nic_up = 1;
+#endif
+
+	arp_init();
+
+}
+
+
+uint32_t netmask_bits_to_netmask(uint8_t bits) {
+	return ~(((uint32_t)1<<(32-bits)) - 1);
+}
+
+
+
+void nic_doEvents(void) {
+
+
+	//is there a packet ?
+	uint16_t len = receivefunction(nic_buffer, NIC_BUFFERSIZE);
+	if (nic_up && (len > 0))
+	{
+
+		uint16_t type = (nic_buffer[12]<<8) + nic_buffer[13];
+		unsigned char ip_protocol;
+
+		switch (type) {
+
+			case (ETHERNET_TYPE_ARP):
+				arp_packet_in(nic_buffer, len);
+			break;
+
+			case (ETHERNET_TYPE_IP):
+
+				//if (nic_buffer_to_ip(&nic_buffer[IP_POS_DST_IP]) != nic_ip) {
+				//	rfm12link_send((unsigned char*)nic_buffer, len);
+				//}
+
+				ip_protocol = nic_buffer[IP_POS_IPTYPE];
+				switch (ip_protocol) {
+
+					case (IP_PROTOCOL_ICMP):
+						icmp_packet_in(nic_buffer, len);
+					break;
+
+					case(IP_PROTOCOL_UDP):
+						udp_packet_in(nic_buffer, len);
+					break;
+
+					case(IP_PROTOCOL_TCP):
+						tcp_packet_in(nic_buffer, len);
+					break;
+
+				}
+			break;
+
+		}
+	}
+}
+
+
+
+void nic_send_packet(char *buffer, unsigned int len) {
+	sendfunction(buffer,len);
+}
+
+
+
+unsigned int nic_buffer_to_unsigned_int(char *buffer){
+	unsigned int res = ((unsigned int)buffer[20]<<8) | buffer[21];
+	return res;
+}
+
+uint32_t nic_buffer_to_ip(char *buffer){
+	uint32_t res = ((uint32_t)buffer[0]<<24) | ((uint32_t)buffer[1]<<16) | ((uint32_t)buffer[2]<<8) | ((uint32_t)buffer[3]<<0);
+	return res;
+}
+
+void nic_ip_to_buffer(char *buffer, uint32_t ip){
+	buffer[0] = ip>>24 & 0xFF;
+	buffer[1] = ip>>16 & 0xFF;
+	buffer[2] = ip>> 8 & 0xFF;
+	buffer[3] = ip>> 0 & 0xFF;
+}
+
+void nic_copy_mac_to_buf(char *buffer) {
+	for(uint8_t i = 0; i<6; i++) {
+		buffer[i] = nic_mac[i];
+	}
+}
+
+
+
+

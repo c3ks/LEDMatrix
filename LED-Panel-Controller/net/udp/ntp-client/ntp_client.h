@@ -1,0 +1,55 @@
+
+//#include "config.h"
+#include <stdint.h>
+#include <avr/pgmspace.h>
+#include "../base/udp.h"
+
+
+
+#define NTP_DATALENGTH 48
+
+#define NTP_POS_FLAGS          (UDP_POS_DATA + 0)
+#define NTP_POS_STRATUM        (UDP_POS_DATA + 1)
+#define NTP_POS_POLL_INTERVAL  (UDP_POS_DATA + 2)
+#define NTP_POS_PRECISION      (UDP_POS_DATA + 3)
+#define NTP_POS_ROOT_DELAY     (UDP_POS_DATA + 4)
+#define NTP_POS_CLOCK_DISP     (UDP_POS_DATA + 8)
+//...
+
+
+#define NTP_POS_REF_TIMESTAMP   (UDP_POS_DATA + 16)
+#define NTP_POS_ORG_TIMESTAMP   (UDP_POS_DATA + 24)
+#define NTP_POS_RX_TIMESTAMP   (UDP_POS_DATA + 32)
+#define NTP_POS_TX_TIMESTAMP   (UDP_POS_DATA + 40)
+
+#define NTP_POS_LAST_DATA      (UDP_POS_DATA + NTP_DATALENGTH)
+
+#define NTP_FLAG_NTP4_SERVER   0x24
+
+#define NTP_TIME_YEAR  0
+#define NTP_TIME_MONTH 1
+#define NTP_TIME_DAY   2
+#define NTP_TIME_HOUR  3
+#define NTP_TIME_MIN   4
+#define NTP_TIME_SEC   5
+
+
+extern PROGMEM char NTP_MONTH_TO_DAYS[12];
+
+//ntp client init
+void ntp_client_init(uint32_t server_ip, void (*function)(uint64_t time));
+
+uint16_t get_daytime(uint32_t timestamp);
+void ntp_client_send_request(char *buffer);
+void ntp_client_start_request(char *buffer);
+void ntp_client_decode_packet(char *buffer, unsigned int len);
+
+//send NTP request
+
+//decode an ntp packet & extract time data
+
+
+//convert unix timestamp to date/time.
+//void ntp_client_timestamp_to_time(unsigned long timestamp, unsigned char *time);
+
+

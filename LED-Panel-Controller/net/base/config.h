@@ -1,0 +1,12 @@
+
+
+#define IP(a3,a2,a1,a0) ((((unsigned long)(a3))<<24)|(((unsigned long)(a2))<<16)|(((unsigned long)(a1))<<8)|(unsigned long)(a0))
+
+
+#define NIC_IP 		IP(10,0,1,253)
+#define NIC_NETMASK_BITS 24
+#define NIC_GATEWAY IP(172,18,101,1)
+#define NIC_MAC 	{0x00, 0x19, 0x66, 0x78, 0x5c, 0xbc}
+
+//#define NIC_CONFIG_STATIC 1
+#define NIC_BUFFERSIZE 600
